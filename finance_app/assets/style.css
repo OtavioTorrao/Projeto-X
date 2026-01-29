@@ -1,0 +1,23 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.kpi-grid {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.kpi {
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
